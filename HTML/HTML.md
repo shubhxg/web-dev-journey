@@ -2,7 +2,7 @@ HTML5 has some elements that identify different content areas.
 These elements make your HTML easier to read and help with Search Engine Optimization (SEO) and accessibility. 
 `<main>`
 
-To emphasize something `<em>` tag is used and to bold something `<b>` is used
+To emphasize something `<em>` tag is used and to bold something `<strong>` is used
 
 You can add images to your website by using the `img` element. 
 `img` element have an opening tag without a closing tag. 
@@ -66,5 +66,6 @@ For example,
 ```
 adds the caption `A cute cat`.
 
+The HTML `<form>` tag is used to create a form for user input on a web page. The form elements, such as text fields, checkboxes, and buttons, are placed within the form tags. The form data can be sent to a server for processing using the HTTP POST or GET method. The action and method attributes are used to specify the URL where the form data will be sent and the HTTP method used for the submission, respectively.
 
 
