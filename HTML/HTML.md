@@ -66,5 +66,6 @@ For example,
 ```
 adds the caption `A cute cat`.
 
+The HTML `<form>` tag is used to create a form for user input on a web page. The form elements, such as text fields, checkboxes, and buttons, are placed within the form tags. The form data can be sent to a server for processing using the HTTP POST or GET method. The action and method attributes are used to specify the URL where the form data will be sent and the HTTP method used for the submission, respectively.
 
 
