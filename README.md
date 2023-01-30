@@ -1,3 +1,3 @@
-<h1 align="left"> Frontend </h1>
+<h1 align="left"> Fullstackwebdev </h1>
 
-<p align="left"> Notes of my Frontend Webdev learning.</p>
+<p align="left"> Notes of my Fullstack Webdev learning.</p>
