@@ -2,7 +2,7 @@ HTML5 has some elements that identify different content areas.
 These elements make your HTML easier to read and help with Search Engine Optimization (SEO) and accessibility. 
 `<main>`
 
-To emphasize something `<em>` tag is used and to bold something `<b>` is used
+To emphasize something `<em>` tag is used and to bold something `<strong>` is used
 
 You can add images to your website by using the `img` element. 
 `img` element have an opening tag without a closing tag. 
