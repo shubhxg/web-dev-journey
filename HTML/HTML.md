@@ -1,71 +1,62 @@
-HTML5 has some elements that identify different content areas. 
-These elements make your HTML easier to read and help with Search Engine Optimization (SEO) and accessibility. 
-`<main>`
+# Head, Title, Body
 
-To emphasize something `<em>` tag is used and to bold something `<strong>` is used
-
-You can add images to your website by using the `img` element. 
-`img` element have an opening tag without a closing tag. 
-**self-closing tags** are the tags that do not need a closing tag. 
-`<img>`
-
-HTML _attributes_ are special words used inside the opening tag of an element to control the element's behavior. 
-The `src` attribute in an `img` tag specifies the image's URL (where the image is located).
-
-```html 
-<img src = “imagelink” >
+Basic structure
+```html
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<meta charset="UTF-8"> 
+		<title>Page Title</title> 
+	</head> 
+	<body> 
+		<!-- Your HTML content goes here --> 
+	</body> 
+</html>
 ```
 
-All `img` elements should have an `alt` attribute. 
-The `alt` attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load. 
-For eg: `<img src="cat.jpg" alt="A Small cat">` has an `alt` attribute with the text `A Small cat`
+All HTML documents must start with a document type declaration: `<!DOCTYPE html>`. The `<!DOCTYPE>` declaration represents the document type, and helps browsers to display web pages correctly.
 
-To link page to another page with the anchor can be done using anchor element. For eg: 
-`<a href=""> textgoeshere </a>`
+The HTML document itself begins with `<html>` and ends with `</html>`
 
-Nesting can also be done like this:
-`<p> paragraph text <a href ="link"> linktext </a> paragraph text </p>` <br>
- `target ="_blank"` attribute for opening link in a new tab, for eg: `<a href ="link" target ="_blank"> linktext </a>`
- 
-The `<section>` tag in HTML defines a specific section of a web page, such as a header, footer, or content area. 
-It is used to group related content together, and can have a semantic meaning for assistive technologies. The `<section>` tag is an HTML5
-element and can be used with other HTML tags such as headings (`<h1>` - `<h6>`), paragraphs (`<p>`), and lists (`<ul>` and `<ol>`) and more.
- 
-Use list item (`li`) elements to create items in a list. Here is an example of list items in an unordered list:
+All page content elements that should be rendered to the page go inside the `body` element. However, other important information goes inside the `head` element.
+
+The HTML `<head>` element is a container for the following elements: 
+`<title>`, `<style>`, `<meta>`, `<link>`, `<script>`, and `<base>`
+
+The `title` element determines what browsers show in the title bar or tab for the page.
+
+`<style>` element is stylesheet code -> CSS code.
+
+The `<meta chatset="UTF-8">` tells the browser about multiple languages. This ensures that text in different languages will be displayed correctly in the browser.
+
+`<script>` is the element used to add javascript code.
+
+# Text related
+
+HTML headings are defined with the `<h1>` to `<h6>` tags.
+
+`<h1>` defines the most important heading. `<h6>` defines the least important heading.
+
+HTML paragraphs are defined with the `<p>` tag
+
+`<em>`  used to emphasize text.
+`<strong>` used for making text bold.
+
+# Links related
+
+HTML links are defined with the `<a>` tag. `<a href="https://www.w3schools.com">This is a link</a>`
+
+The link's destination is specified in the `href` attribute. Attributes are used to provide additional information about HTML elements.
+
+HTML images are defined with the `<img>` tag.  A tag for an element without a closing tag is known as a **self-closing tag**
+
 
 ```html
-<ul>
-  <li>milk</li>
-  <li>cheese</li>
-</ul>
+<html lang="en">
+	<head>head</head>
+	<title>title goes here</title>
+	<body> body goes here
+	</body>
+</html>
 ```
-
-<ul>
-  <li>milk</li>
-  <li>cheese</li>
-</ul>
-
-To create ordered list we use `<ol>`
-```html 
-<ol>
-  <li>milk</li>
-  <li>cheese</li>
-</ol>
-```
-<ol>
-  <li>milk</li>
-  <li>cheese</li>
-</ol>
-<br>
-
-The `figure` element represents self-contained content and will allow you to associate an image with a caption.
-A figure caption (`figcaption`) element is used to add a caption to describe the image contained within the `figure` element. 
-For example,
-```html 
-<figcaption>A cute cat</figcaption> 
-```
-adds the caption `A cute cat`.
-
-The HTML `<form>` tag is used to create a form for user input on a web page. The form elements, such as text fields, checkboxes, and buttons, are placed within the form tags. The form data can be sent to a server for processing using the HTTP POST or GET method. The action and method attributes are used to specify the URL where the form data will be sent and the HTTP method used for the submission, respectively.
-
-
+`lang=en` tells the browser that the language of the page is english.
