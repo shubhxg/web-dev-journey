@@ -3,7 +3,7 @@
 Basic structure
 ```html
 <!DOCTYPE html> 
-<html> 
+<html lang="en"> 
 	<head> 
 		<meta charset="UTF-8"> 
 		<title>Page Title</title> 
@@ -31,6 +31,7 @@ The `<meta chatset="UTF-8">` tells the browser about multiple languages. This en
 
 `<script>` is the element used to add javascript code.
 
+`lang=en` in html tells the browser that the language of the page is english.
 # Text related
 
 HTML headings are defined with the `<h1>` to `<h6>` tags.
@@ -59,4 +60,4 @@ HTML images are defined with the `<img>` tag.  A tag for an element without a 
 	</body>
 </html>
 ```
-`lang=en` tells the browser that the language of the page is english.
+
