@@ -27,7 +27,7 @@
   display: inline;
   margin:10px 8px 0px 0px;
   background-color: rgb(243, 243, 243);
-  height: 35px;
+  line-height: 35px;
   border: 0px solid black;
   padding-top: 10px;
   padding-left: 15px; 
@@ -43,7 +43,7 @@
   color: #222222;
   font-weight: regular;
   background-color: rgb(243, 243, 243);
-  height: 35px;
+  line-height: 35px;
   border: 0px solid black;
   padding-top: 10px;
   padding-left: 15px; 
