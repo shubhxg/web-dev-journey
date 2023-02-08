@@ -1,0 +1,53 @@
+.main {
+  margin-top: 200px;
+}
+
+.logo{
+  display:block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchbar {
+  display: block;
+  height: 40px;
+  width: 500px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.search-button {
+  font-family:Arial;
+  color: #3e3e3e;
+  display: inline;
+  margin:10px 8px 0px 0px;
+  background-color: rgb(243, 243, 243);
+  height: 35px;
+  border: 0px solid black;
+  padding-top: 10px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  padding-bottom: 10px;
+}
+
+.feeling-lucky {
+  font-family:Arial;
+  color: #3e3e3e;
+  display: inline;
+  margin:10px 8px 0px 0px;
+  color: #222222;
+  font-weight: regular;
+  background-color: rgb(243, 243, 243);
+  height: 35px;
+  border: 0px solid black;
+  padding-top: 10px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  padding-bottom: 10px;
+}
+
