@@ -42,7 +42,7 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 HTML paragraphs are defined with the `<p>` tag
 
 `<em>`  used to emphasize text.
-`<strong>` used for making text bold.
+`<b>` used for making text bold.
 The `<br>` tag defines a line break, and is an empty element without a closing tag.
 
 The `title` attribute defines some extra information about an element.
