@@ -41,18 +41,31 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 
 HTML paragraphs are defined with the `<p>` tag
 
-`<em>`  used to emphasize text.
+`<em>`  used to emphasize text, while `<i>` tag only changes the visual appearance of the text to italic.
+
 `<b>` used for making text bold.
+
 The `<br>` tag defines a line break, and is an empty element without a closing tag.
 
 The `title` attribute defines some extra information about an element.
+
+`<small>` makes text smaller.
+
+`<del>` makes the text cut by a line from the middle.
+
+`<sub>` tag or Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like: <p>H<sub>2</sub>O</p>
+
+`<ins>` shows the inserted text.
 
 The value of the title attribute will be displayed as a tooltip when you mouse over the element. For example: 
 ```html
 <p title="I'm a tooltip">This is a paragraph.</p>
 ```
 
-The `<hr>` element is called Horizontal Rule and is used to separate content (or define a change) in an HTML page. Creates a line and separates the content from next content.
+The HTML `<sup>` element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Like:
+<p>a<sup>2</sup>+b<sup>2</sup>+ 2ab = (a+b)<sup>2</sup></p>
+
+The `<hr>` element is called Horizontal Rule and is used to separate content (or define a change) in an HTML page.
 
 Use `<br>` if you want a line break (a new line) without starting a new paragraph
 
