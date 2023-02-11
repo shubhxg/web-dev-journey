@@ -57,6 +57,12 @@ The `title` attribute defines some extra information about an element.
 
 `<ins>` shows the inserted text.
 
+The HTML `<q>`tag defines a short quotation.
+
+BDO stands for Bi-Directional Override.
+
+The HTML `<bdo>` tag is used to override the current text direction:
+
 The value of the title attribute will be displayed as a tooltip when you mouse over the element. For example: 
 ```html
 <p title="I'm a tooltip">This is a paragraph.</p>
