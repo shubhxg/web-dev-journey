@@ -1,83 +1,82 @@
 # Head, Title, Body
 
-Basic structure
+
 ```html
 <!DOCTYPE html> 
 <html lang="en-US"> 
-	<head> 
-		<meta charset="UTF-8"> 
-		<title>Page Title</title> 
-	</head> 
-	<body> 
-		<!-- Your HTML content goes here --> 
-	</body> 
+    <head> 
+        <meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Page Title</title> 
+    </head> 
+    <body> 
+        <!-- Your HTML content goes here --> 
+    </body> 
 </html>
 ```
 
-All HTML documents must start with a document type declaration: `<!DOCTYPE html>`. The `<!DOCTYPE>` declaration represents the document type, and helps browsers to display web pages correctly.
+`<!DOCTYPE>`declaration represents HTML5 document type, and helps browsers to display web pages correctly.
 
 The HTML document itself begins with `<html>` and ends with `</html>`
 
-All page content elements that should be rendered to the page go inside the `body` element. However, other important information goes inside the `head` element.
+`lang="en-US"` tells the browser that the language of the page is english and US country.
 
-The HTML `<head>` element is a container for the following elements: 
+`<head>` is the section that is not visible on the page but contains following elements: 
 `<title>`, `<style>`, `<meta>`, `<link>`, `<script>`, and `<base>`
 
-The `title` element determines what browsers show in the title bar or tab for the page.
+`title` element determines what browsers show in the title bar or tab for the page.
 
 `<style>` element is stylesheet code -> CSS code.
 
-The `<meta chatset="UTF-8">` tells the browser about multiple languages. This ensures that text in different languages will be displayed correctly in the browser.
+`<meta chatset="UTF-8">` tells the browser about multiple languages. This ensures that text in different languages will be displayed correctly in the browser.
+
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">` defines the viewport for responsive design. This tag is important for making sure the website looks good on all devices, including mobile devices.
 
 `<script>` is the element used to add javascript code.
 
-`lang="en-US"` tells the browser that the language of the page is english and US country.
+`<body>` contains all the content that is shown on the page.
 
 # Text related
 
-HTML headings are defined with the `<h1>` to `<h6>` tags.
+`<h1> <h2> <h3> ... <h6>` is for headings
 
-`<h1>` defines the most important heading. `<h6>` defines the least important heading.
+`<p>` is used for paragraph
 
-HTML paragraphs are defined with the `<p>` tag
+`<em>`  used to emphasize text
 
-`<em>`  used to emphasize text, while `<i>` tag only changes the visual appearance of the text to italic.
+`<i>` for itallic text
 
-`<b>` used for making text bold.
+`<b>` used for bold text
 
-The `<br>` tag defines a line break, and is an empty element without a closing tag.
+The `<br/>` tag defines a line break, and is an empty element without a closing tag.
 
-The `title` attribute defines some extra information about an element.
+`<small>` makes text smaller
 
-`<small>` makes text smaller.
+`<del>` makes the text cut by a line from the middle
 
-`<del>` makes the text cut by a line from the middle.
-
-`<sub>` tag or Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like: <p>H<sub>2</sub>O</p>
+`<sub>` tag or Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for formulas, like: <p>H<sub>2</sub>O</p>
 
 `<ins>` shows the inserted text.
 
-The HTML `<q>`tag defines a short quotation.
+`<q>` tag defines a short quotation.
 
-BDO stands for Bi-Directional Override.
-
-The HTML `<bdo>` tag is used to override the current text direction:
+`<bdo>` tag is used to override the current text direction and change it to right to left
 
 The value of the title attribute will be displayed as a tooltip when you mouse over the element. For example: 
 ```html
 <p title="I'm a tooltip">This is a paragraph.</p>
 ```
 
-The HTML `<sup>` element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Like:
+`<sup>` element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Like:
 <p>a<sup>2</sup>+b<sup>2</sup>+ 2ab = (a+b)<sup>2</sup></p>
 
-The `<hr>` element is called Horizontal Rule and is used to separate content (or define a change) in an HTML page.
+`<hr>` element is called Horizontal Rule and is used to separate content (or define a change) in an HTML page.
 
-Use `<br>` if you want a line break (a new line) without starting a new paragraph
+`<br>` to get a new line without starting a new paragraph
 
 # Links 
 
-HTML links are defined with the `<a>` tag. `<a href="https://www.w3schools.com">This is a link</a>`
+`<a>`(anchor) for links `<a href="https://www.w3schools.com">This is a link</a>`
 
 The link's destination is specified in the `href` attribute. Attributes are used to provide additional information about HTML elements.
 
