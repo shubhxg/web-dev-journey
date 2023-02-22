@@ -74,7 +74,7 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 
 `<br>` to get a new line without starting a new paragraph
 
-# Links 
+# Links related
 
 `<a>`(anchor) for links `<a href="https://www.w3schools.com">This is a link</a>`
 
@@ -91,7 +91,7 @@ Nesting can also be done like:
 <p> This is a paragraph <a href =""> and this is a link </a> text </p>
 ```
 
-# Images 
+# Images related
 
 HTML images are defined with the `<img>` tag.  A tag for an element without a closing tag is known as a **self-closing tag**
 
