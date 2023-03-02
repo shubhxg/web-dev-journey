@@ -15,7 +15,15 @@
 </html>
 ```
 
-`<!DOCTYPE>`declaration represents HTML5 document type, and helps browsers to display web pages correctly.
+`<!DOCTYPE>`declaration tells the browser that it is a html5 document.
+
+In html there are 3 main things according to me: 
+
+![html](https://user-images.githubusercontent.com/69891912/222506176-81664258-a623-43b1-ad8f-872e8d05e067.png)
+
+- element or a tag (opening tag, closing tag and self-closing tag)
+- attribute 
+- value of that attribute
 
 The HTML document itself begins with `<html>` and ends with `</html>`
 
@@ -76,11 +84,12 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 
 # Links related
 
-`<a>`(anchor) for links `<a href="https://www.w3schools.com">This is a link</a>`
+`<a>`called anchor is used for links
+example - `<a href="https://www.w3schools.com">This is a link</a>`
 
-The link's destination is specified in the `href` attribute. Attributes are used to provide additional information about HTML elements.
+The link's destination is specified in the `href` attribute. 
 
-`target ="_blank"` for opening link in new tab
+`target ="_blank"` attribute used for opening link in new tab
 
 ```html
 `<a href="https://www.w3schools.com" target="_blank">This is a link</a>`
@@ -93,28 +102,24 @@ Nesting can also be done like:
 
 # Images related
 
-HTML images are defined with the `<img>` tag.  A tag for an element without a closing tag is known as a **self-closing tag**
+`<img>` for images 
 
-The `src` specifies the image's URL (where the image is located), alternative text (`alt`), `width`, and `height` are provided as attributes:
+example - `<img src="URL of image" alt="alternate text">` where src is the source of image.
 
 All `img` elements should have an `alt` attribute. The `alt` attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load.
 ```html
-<img src="https://" alt="linkname" width="x" height="y">
+<img src="https://" alt="alternate text" width="x" height="y">
 ```
+(where x and y could be pixels, em, rem, percentage etc values)
 
 There are two ways to specify the URL in the `src` attribute:
 
-**1. Absolute URL** - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+**- Absolute URL** - Links to an external image that is hosted on another website. Example: "https://www.w3schools.com/images/img_girl.jpg".
 
-**2. Relative URL** - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+**- Relative URL** - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. 
+Example: src = "img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
 
 **Tip:** It is almost always best to use relative URLs. They will not break if you change domain.
-
-`<img>` tag can also contain width and height. 
-
-```html
-<img src="link" width="" height="" alt="alternate name">
-```
 
 # Main 
 
@@ -122,28 +127,9 @@ The `<main>` tag in HTML is used to define the main content of a web page. It is
 
 # Section
 
-The `<section>` tag in HTML defines a specific section of a web page, such as a header, footer, or content area. It is used to group related content together, and can have a semantic meaning for assistive technologies. The `<section>` tag is an HTML5 element and can be used with other HTML tags such as headings (`<h1>` - `<h6>`), paragraphs (`<p>`), and lists (`<ul>` and `<ol>`).
+The `<section>` tag in HTML defines a specific section of a web page, such as a header, footer, or content area. It is used to group related content together.
 
 Note: When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
-
-# Nesting 
-
-HTML elements can be nested (this means that elements can contain other elements)
-for example: 
-```html
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>
-		
-		</title>
-	</head>
-	<body>
-	
-	</body>
-</html>
-```
-In this above example we can see that the elements are nested in other elements. 
 
 # List items
 
@@ -155,4 +141,14 @@ Use list item (`li`) elements to create items in a list. Here is an example of l
   <li>cheese</li>
 </ul>
 ```
+
+## Span
+
+`<span>` tag is an inline element used to group and apply styles to a small piece of content within a larger block of text or a container. Basically to target a small piece of text inside a div.
+
+Some common uses of the **`<span>`** tag include:
+
+1. Applying CSS styles to a specific part of a text or element.
+2. Highlighting a word or phrase within a paragraph or sentence.
+3. Adding custom data attributes to an element, which can be used to store metadata or perform other functions in JavaScript.
 
