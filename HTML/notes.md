@@ -17,9 +17,10 @@
 
 `<!DOCTYPE>`declaration tells the browser that it is a html5 document.
 
-In html there are 3 main things according to me: 
+**Syntax of an HTML code**
 
-![html](https://user-images.githubusercontent.com/69891912/222506176-81664258-a623-43b1-ad8f-872e8d05e067.png)
+![Screenshot from 2023-03-25 15-40-05](https://user-images.githubusercontent.com/69891912/227710993-ac42b29c-b9b3-4c84-8e1c-2ce26c268cd0.png)
+
 
 - element or a tag (opening tag, closing tag and self-closing tag)
 - attribute 
