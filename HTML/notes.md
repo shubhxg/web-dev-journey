@@ -57,6 +57,8 @@ The HTML document itself begins with `<html>` and ends with `</html>`
 
 `<b>` used for bold text
 
+`span` used for short piece of text
+
 The `<br/>` tag defines a line break, and is an empty element without a closing tag.
 
 `<small>` makes text smaller
@@ -142,14 +144,4 @@ Use list item (`li`) elements to create items in a list. Here is an example of l
   <li>cheese</li>
 </ul>
 ```
-
-## Span
-
-`<span>` tag is an inline element used to group and apply styles to a small piece of content within a larger block of text or a container. Basically to target a small piece of text inside a div.
-
-Some common uses of the **`<span>`** tag include:
-
-1. Applying CSS styles to a specific part of a text or element.
-2. Highlighting a word or phrase within a paragraph or sentence.
-3. Adding custom data attributes to an element, which can be used to store metadata or perform other functions in JavaScript.
 
