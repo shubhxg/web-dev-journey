@@ -137,9 +137,9 @@ Note: When you add a lower rank heading element to the page, it's implied that y
 
 # List items
 
-Lists are created in two ways :- Ordered List & Un-ordered List.
+Lists are created in two ways: Ordered List & Un-ordered List.
 
-Ordered List :- Items in Unordered lists do not have any serial order, they are  simply listed with like bullet points. They are not indexed. (`ul`)  is used to create un-ordered List.
+**1. Un-Ordered List:** Items in Unordered lists do not have any serial order, they are  simply listed with like bullet points. They are not indexed. (`ul`)  is used to create un-ordered List.
 Use list item (`li`) inside (`ul`) tag to create items in an un-ordered list. Here is an example of list items in an un-ordered list:
 
 ```html
@@ -149,7 +149,7 @@ Use list item (`li`) inside (`ul`) tag to create items in an un-ordered list. He
 </ul>
 ```
 
-Ordered List :- Items in Ordered lists have a serial order, they are  listed with a specific order, numerical, roman, alphabetical orders can be used to list item in an ordered list. They are indexed. (`ol`)  is used to create Ordered List.
+**2. Ordered List:** Items in Ordered lists have a serial order, they are  listed with a specific order, numerical, roman, alphabetical orders can be used to list item in an ordered list. They are indexed. (`ol`)  is used to create Ordered List.
 Use list item (`li`) inside (`ol`) tag to create items in a ordered list. Here is an example of list items in an ordered list:
 
 ```html
