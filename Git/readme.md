@@ -87,3 +87,21 @@
 > `git log`
 - To unstage the files
 > `git restore —staged file`
+- To put the changes on the stash (backstage lol)
+> `git stash`
+ 
+> Note: Remember that in order to put them in the backstage you first have to put these changes on the stage, you cant stash it if you have not staged it first.
+
+Example: 
+
+![2023-05-22 20_43_56-Welcome - Javascript from Jonas - Visual Studio Code](https://github.com/shubhsharma19/web-development-notes/assets/69891912/070f2aa6-b9ed-4ae9-a6d1-dce4c149ba49)
+
+- To put stashed changes back to the staging area
+> `git stash pop`
+
+Example: 
+
+![2023-05-22 20_46_18-Welcome - Javascript from Jonas - Visual Studio Code](https://github.com/shubhsharma19/web-development-notes/assets/69891912/2f3905e4-3f57-46e2-84b3-0e7984d3213b)
+
+- To delete the stashed changes (all the stashed changes will be gone)
+> `git stash clear`
