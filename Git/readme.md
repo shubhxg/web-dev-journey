@@ -38,7 +38,7 @@
 
 ![bbeuhgg47kh51](https://github.com/shubhsharma19/web-development-notes/assets/69891912/5d96fb6b-881e-4c52-8711-dc0740020a6f)
 
-> This meme is famous because developers need to commit their changes so that the history of the code remains on the central repo (GitHub)
+> This meme is famous because developers need to commit and push their changes in this situation so that the history of the code remains on the central repo (GitHub)
 
 
 ## What is a Branch? 🌿
