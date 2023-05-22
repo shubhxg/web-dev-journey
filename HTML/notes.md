@@ -48,6 +48,7 @@ The HTML document itself begins with `<html>` and ends with `</html>`
 # Text related
 
 `<h1> <h2> <h3> ... <h6>` is for headings
+These heading tags not only changes text's font & weight they even tell the browser about heading & sub-headings, which enhances SEO.
 
 `<p>` is used for paragraph
 
@@ -57,9 +58,9 @@ The HTML document itself begins with `<html>` and ends with `</html>`
 
 `<b>` used for bold text
 
-`span` used for short piece of text
+`<span>` used for short piece of text
 
-The `<br/>` tag defines a line break, and is an empty element without a closing tag.
+The `<br>` tag defines a line break, and is an empty element without a closing tag.
 
 `<small>` makes text smaller
 
@@ -136,7 +137,10 @@ Note: When you add a lower rank heading element to the page, it's implied that y
 
 # List items
 
-Use list item (`li`) elements to create items in a list. Here is an example of list items in an unordered list:
+Lists are created in two ways :- Ordered List & Un-ordered List.
+
+Ordered List :- Items in Unordered lists do not have any serial order, they are  simply listed with like bullet points. They are not indexed. (`ul`)  is used to create un-ordered List.
+Use list item (`li`) inside (`ul`) tag to create items in an un-ordered list. Here is an example of list items in an un-ordered list:
 
 ```html
 <ul>
@@ -145,3 +149,12 @@ Use list item (`li`) elements to create items in a list. Here is an example of l
 </ul>
 ```
 
+Ordered List :- Items in Ordered lists have a serial order, they are  listed with a specific order, numerical, roman, alphabetical orders can be used to list item in an ordered list. They are indexed. (`ol`)  is used to create Ordered List.
+Use list item (`li`) inside (`ol`) tag to create items in a ordered list. Here is an example of list items in an ordered list:
+
+```html
+<ol>
+  <li>milk</li>
+  <li>cheese</li>
+</ol>
+```
