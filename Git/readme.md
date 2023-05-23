@@ -105,3 +105,44 @@ Example:
 
 - To delete the stashed changes (all the stashed changes will be gone)
 > `git stash clear`
+
+## Something about Origin and Upstream 
+### Origin 
+- **"Origin"** is the default name often given to the remote repository that you cloned from. When you clone a repository, Git sets up a remote named "origin" by default, which points to the repository you cloned from. It allows you to push your changes to and pull updates from that remote repository easily.
+> For example, if you cloned a repository from GitHub, the "origin" remote would typically point to your fork of the repository on your GitHub account.
+
+Example: My LinkFree Fork
+
+![2023-05-23 13_38_45-shubhsharma19_LinkFree_ Connect to your audience with a single link  Showcase th](https://github.com/shubhsharma19/web-development-notes/assets/69891912/02726eaa-5386-4ea9-b21e-e09fa9d5da77)
+
+
+### Upstream
+- **"Upstream"** typically refers to the original repository from which your cloned repository was forked. It represents the authoritative source of the codebase. In the context of forking workflows, the "upstream" repository is where you fetch updates from and submit pull requests to if you want to contribute changes back to the original project.
+For example, if you forked a repository on GitHub, the "upstream" remote would typically point to the original repository that you forked from. This allows you to keep your forked repository in sync with the latest changes from the upstream repository.
+
+Example: LinkFree Original Repo
+
+![2023-05-23 13_37_46-EddieHubCommunity_LinkFree_ Connect to your audience with a single link  Showcas](https://github.com/shubhsharma19/web-development-notes/assets/69891912/184a524c-022e-4de5-8e0a-e2b563760d8e)
+
+
+- To connect your github repo to your local machine and make it remote. origin means your own repos or forked repos.
+> `git remote add origin "url goes here"`
+- To check your remote repos
+> `git remote -v` 
+- To push the changes from your local git repository to the remote repository in the branch "main"
+> `git push origin main`
+- To check branches
+> `git branch`
+- To change the name of the branch 
+> `git branch -m oldname newname`
+- To change remote url 
+> `git remote set-url origin` 
+
+**Pro Tip: Always create a separate branch for each new change that you want to create. This way codebase will stay clean and it will be easy for maintainers to maintain the project branches.**
+
+- To create a branch 
+> `git branch branch-name`
+- To checkout the branch  
+> `git checkout branch-name`
+
+> Note: `git checkout branch-name` command will put the pointer on the specified branch,  head will now point to `branch-name` instead of `main`
