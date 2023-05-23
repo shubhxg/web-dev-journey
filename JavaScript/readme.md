@@ -88,3 +88,24 @@ var = "Saul Goodman";
 console.log(var); This will output the value Saul Goodman
 ```
 > Note: this will be very bad idea as this will result in creating a lot of bugs in the code.
+
+## Declaring an undefined variable
+`let var;` here var has undefined value and undefined type because it does not have any specific value inside it. 
+
+## Declaring variables using let, var and const keywords
+- `let` is a keyword used to declare variables in JS, It allows the dynamic typing which can mutate the variable, so in case when you want immutability we should not use let, instead we should use const. let is block scope.
+- `const` is a keyword to declare a constant. Constants don't change, can't be changed. If you will try to change them you will get error.
+- `var` is also used to declare variables however its not recommended. var has a function level scope.
+
+## Operators in JS
+1. Arithmetic: + - * / % 
+2. Assignment: = += -= *= /= %=
+3. Comparision: > < >= <= != == ===
+4. Logical: && || !
+5. Bitwise: & | ^ << >> ~
+6. Unary: ++ -- typeof delete
+7. Ternary: ?:
+
+## Operator Precedence
+The Whole table is available here: [Precedence Table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence#table) 
+Thanks to mdn web docs.
