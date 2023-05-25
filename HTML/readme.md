@@ -1,6 +1,8 @@
-# Head, Title, Body
+# HTML Notes
 
+> ❗ Note: If you prefer a table of tags then checkout this [table](https://github.com/shubhsharma19/web-development-notes/blob/main/HTML/tableformat.md)
 
+## Head, Title, Body
 ```html
 <!DOCTYPE html> 
 <html lang="en-US"> 
