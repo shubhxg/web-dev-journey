@@ -76,19 +76,38 @@
 ## Let's start with some basic git commands ![icons8-git-48](https://github.com/shubhsharma19/web-development-notes/assets/69891912/a5acf77b-efcc-41c0-a947-bf4bc8e67c78)
 
 - Intializing git repo: 
-> `git init` 
+```
+git init
+``` 
 - To see the changes that are not saved (unsaved or uncommited changes) [files are red]
-> `git status`
+```
+git status
+```
 - To place the changes on the stage [this will turn the files green]
-> `git add file` or `git add .`
+- To place `single file` in staging area
+```
+git add file 
+```
+- To place `All the files` in staging area
+```
+git add .
+```
 - To commit  the changes 
-> `git commit -m “message goes here”`
+```
+git commit -m “message goes here”
+```
 - To check the history of the changes
-> `git log`
+```
+git log
+```
 - To unstage the files
-> `git restore —staged file`
+```
+git restore —staged file
+```
 - To put the changes on the stash (backstage lol)
-> `git stash`
+```
+git stash
+```
  
 > Note: Remember that in order to put them in the backstage you first have to put these changes on the stage, you cant stash it if you have not staged it first.
 
@@ -97,14 +116,18 @@ Example:
 ![2023-05-22 20_43_56-Welcome - Javascript from Jonas - Visual Studio Code](https://github.com/shubhsharma19/web-development-notes/assets/69891912/070f2aa6-b9ed-4ae9-a6d1-dce4c149ba49)
 
 - To put stashed changes back to the staging area
-> `git stash pop`
+```
+git stash pop
+```
 
 Example: 
 
 ![2023-05-22 20_46_18-Welcome - Javascript from Jonas - Visual Studio Code](https://github.com/shubhsharma19/web-development-notes/assets/69891912/2f3905e4-3f57-46e2-84b3-0e7984d3213b)
 
 - To delete the stashed changes (all the stashed changes will be gone)
-> `git stash clear`
+```
+git stash clear
+```
 
 ## Something about Origin and Upstream 
 ### Origin 
@@ -126,23 +149,39 @@ Example: LinkFree Original Repo
 
 
 - To connect your github repo to your local machine and make it remote. origin means your own repos or forked repos.
-> `git remote add origin "url goes here"`
+```
+git remote add origin "url goes here"
+```
 - To check your remote repos
-> `git remote -v` 
+```
+git remote -v
+``` 
 - To push the changes from your local git repository to the remote repository in the branch "main"
-> `git push origin main`
+```
+git push origin main
+```
 - To check branches
-> `git branch`
+```
+git branch
+```
 - To change the name of the branch 
-> `git branch -m oldname newname`
+```
+git branch -m oldname newname
+```
 - To change remote url 
-> `git remote set-url origin` 
+```
+git remote set-url origin
+``` 
 
 **Pro Tip: Always create a separate branch for each new change that you want to create. This way codebase will stay clean and it will be easy for maintainers to maintain the project branches.**
 
 - To create a branch 
-> `git branch branch-name`
+```
+git branch branch-name
+```
 - To checkout the branch  
-> `git checkout branch-name`
+```
+git checkout branch-name
+```
 
 > Note: `git checkout branch-name` command will put the pointer on the specified branch,  head will now point to `branch-name` instead of `main`
