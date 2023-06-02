@@ -109,9 +109,9 @@ It is a way used in CSS to align the content on the webpage.
 
 Allows an element to be positioned horizontally within its parent container. When an element is floated, it is taken out of the normal flow of the document and positioned to the left or right side of its containing element.
 
-> Note: Whenever you float an item it will fight as hard as it can to get to the corner of the screen.
+> Note: Whenever you float an item it will fight as hard as it can to get to the corner of the screen. If you float it left it will try to get to the top left corner, if you float it right it will try to get to the top right corner.
 
-for exp: `float: left;` or `float: right;` can send the item in the corners (left and right).
+for exp: `float: left;` or `float: right;`
 
 > Note: when you float something on the screen it literally floats on the screen above the content. This means everything which was under the floated element will slide up till it reaches the top.
 
