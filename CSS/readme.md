@@ -6,9 +6,7 @@ CSS can be added to the HTML or can be connected to it through external link as 
 
 ## Syntax
 
-<img src="https://www.w3schools.com/css/img_selector.gif" alt="Syntax of CSS">
-
-
+![2023-05-30 14_03_12-Excalidraw - Brave](https://github.com/shubhsharma19/web-development-notes/assets/69891912/631feb46-e54b-4343-ab26-55b8e5bf2638)
 
 ```html
 selector {
@@ -77,6 +75,9 @@ Highest specificity to lowest specificity:
 4. Tags (1)
 
 ## Box Model
+
+![boxmodel](https://github.com/shubhsharma19/web-development-notes/assets/69891912/3ac2c4a3-e217-4669-a893-e2a1d78c0a6f)
+
 
 Everything is a box on the web.
 
