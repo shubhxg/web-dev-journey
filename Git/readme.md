@@ -148,7 +148,7 @@ Example: LinkFree Original Repo
 ![2023-05-23 13_37_46-EddieHubCommunity_LinkFree_ Connect to your audience with a single link  Showcas](https://github.com/shubhsharma19/web-development-notes/assets/69891912/184a524c-022e-4de5-8e0a-e2b563760d8e)
 
 
-- To connect your github repo to your local machine and make it remote. origin means your own repos or forked repos.
+- To connect your github repo to your local machine and make it remote. Origin means your own repos or forked repos.
 ```
 git remote add origin "url goes here"
 ```
@@ -156,6 +156,10 @@ git remote add origin "url goes here"
 ```
 git remote -v
 ``` 
+- To clone a repo 
+```
+git clone "url goes here"
+```
 - To push the changes from your local git repository to the remote repository in the branch "main"
 ```
 git push origin main
