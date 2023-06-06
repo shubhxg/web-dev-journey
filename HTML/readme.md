@@ -47,7 +47,7 @@ The HTML document itself begins with `<html>` and ends with `</html>`
 
 `<body>` contains all the content that is shown on the page.
 
-# Text related
+## Text related
 
 `<h1> <h2> <h3> ... <h6>` is for headings
 These heading tags not only changes text's font & weight they even tell the browser about heading & sub-headings, which enhances SEO.
@@ -88,7 +88,7 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 
 `<br>` to get a new line without starting a new paragraph
 
-# Links related
+## Links related
 
 `<a>`called anchor is used for links
 example - `<a href="https://www.w3schools.com">This is a link</a>`
@@ -106,7 +106,7 @@ Nesting can also be done like:
 <p> This is a paragraph <a href =""> and this is a link </a> text </p>
 ```
 
-# Images related
+## Images related
 
 `<img>` for images 
 
@@ -127,17 +127,7 @@ Example: src = "img_girl.jpg". If the URL begins with a slash, it will be relati
 
 **Tip:** It is almost always best to use relative URLs. They will not break if you change domain.
 
-# Main 
-
-The `<main>` tag in HTML is used to define the main content of a web page. It is intended to be unique to the document and to exclude content that is repeated across a set of documents such as site **navigation, header, or footer.** The purpose of using a `<main>` tag is to improve accessibility and provide a better structure to the HTML document.
-
-# Section
-
-The `<section>` tag in HTML defines a specific section of a web page, such as a header, footer, or content area. It is used to group related content together.
-
-Note: When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
-
-# List items
+## List items
 
 Lists are created in two ways: Ordered List & Un-ordered List.
 
@@ -160,3 +150,72 @@ Use list item (`li`) inside (`ol`) tag to create items in a ordered list. Here i
   <li>cheese</li>
 </ol>
 ```
+
+## Forms and Input
+
+`<form>` tag is used to create an interactive form on a web page. It is a container for input elements such as text fields, checkboxes, radio buttons, submit buttons, etc.
+
+```
+<form action="submit-url"> 
+
+</form>
+```
+
+The action attribute indicates where form data should be sent. For example, `action="/submit-url"` tells the browser that the form data should be sent to the path /submit-url
+
+We use `<input>` element to take input from the user with different attribute `type` which allows input of different values. `<input/>` is a self closing tag.
+
+for exp: `<input type="text">`, `<input type="password">`, `<input type="radio">` etc.
+
+A `placeholder` attribute can be used to tell user what to input.
+
+The `<fieldset>` element is used to group related inputs and labels together in a web form.
+
+The `<legend>` element acts as a caption for the content in the `<fieldset>` element. It gives users context about what they should enter into that part of the form. This text will be shown above the box. So it should be added above the radio inputs.
+
+Like `radio buttons`, form data for selected checkboxes are `name / value` attribute pairs. While the `value` attribute is optional, it's best practice to include it with any checkboxes or radio buttons on the page.
+
+In order to make a checkbox checked or radio button selected by default, you need to add the `checked` attribute to it.
+
+For exp: 
+```
+<label>
+  <input checked id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor
+</label>
+```
+## Buttons
+
+Buttons are clickable actions that allow an action on the web page.
+
+For exp: `<button>Submit</button>`
+
+You can also add `type` attribute as well. 
+`<button type="submit">Submit</button>`
+
+## Div
+
+`<div>` tag is used as a container or a divisional element to group and organize other HTML elements. It stands for "division". Used for creating layouts.
+
+# Semantic Elements
+
+Semantic elements increases the accesibility of the web. Basically it helps the browser and internet understand your website properly. For exp: `header` element makes more sense for a header section instead of a `div` which is a semantic-less element.
+
+## section
+
+The `<section>` tag in HTML defines a specific section of a web page, such as a header, footer, or content area. It is used to group related content together.
+
+>Note: When you add a lower rank heading element to the page, it's implied that you're starting a new sub-section.
+
+## main 
+
+The `<main>` tag in HTML is used to define the main content of a web page. It is intended to be unique to the document and to exclude content that is repeated across a set of documents such as site **navigation, header, or footer.** The purpose of using a `<main>` tag is to improve accessibility and provide a better structure to the HTML document.
+
+## article
+
+`<article>` element represents a self-contained composition in a site, which is intended to be independently distributable or reusable. 
+
+For exp: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget or computer or item, or any other independent item of content.
+
+## nav 
+
+`<nav>` semantic tag in HTML is used to define a section of a web page that contains navigation links. 
