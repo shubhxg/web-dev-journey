@@ -1,7 +1,8 @@
 # Cascading style sheets 
 
-Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). 
-CSS describes how elements should be rendered on screen, on paper, in speech, or on other media
+**Cascading Style Sheets (CSS)** is a stylesheet language used to describe the presentation of a document written in HTML or XML.
+
+CSS describes **how elements should be rendered** on screen or on other media. In short, CSS gives the styling to the content.
 ## Syntax
 
 ![2023-05-30 14_03_12-Excalidraw - Brave](https://github.com/shubhsharma19/web-development-notes/assets/69891912/631feb46-e54b-4343-ab26-55b8e5bf2638)
