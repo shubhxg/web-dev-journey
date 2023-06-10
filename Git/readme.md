@@ -83,8 +83,7 @@ git init
 ```
 git status
 ```
-- To place the changes on the stage [this will turn the files green]
-- To place `single file` in staging area
+- To place the changes on the stage, To place `single file` in staging area [this will turn the files green]
 ```
 git add file 
 ```
@@ -172,6 +171,10 @@ git branch
 ```
 git branch -m oldname newname
 ```
+- To delete a branch, first checkout main and then delete the branch you want to delete with this command 
+```
+git branch -D branch-name
+```
 - To change remote url 
 ```
 git remote set-url origin
@@ -189,3 +192,8 @@ git checkout branch-name
 ```
 
 > Note: `git checkout branch-name` command will put the pointer on the specified branch,  head will now point to `branch-name` instead of `main`
+
+- To know more about any specific command
+```
+git command -help
+```
