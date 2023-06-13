@@ -25,3 +25,6 @@ body:
     validations:
       required: false
   - type: markdown
+    attributes:
+      value: |
+        Feel free to check out other cool repositories [here](https://github.com/shubhsharma19)
