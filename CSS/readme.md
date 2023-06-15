@@ -22,7 +22,7 @@ selector {
 
 ## Cascade effect in CSS
 
-What comes above can be overriden by what comes below. This only happens if both have similar specifity value or the below one has higher.
+What comes above can be overridden by what comes below. This only happens if both have similar specifity value or the below one has higher.
 
 For exp :
 ```
