@@ -89,10 +89,10 @@ Box model contains following things:
 - Padding: Outside the content, between content and border.
 - Content: This is the content.
 
-**Some points to remember about Box model:**
-- Padding pushes away the border from content.
+**Some points to remember about the Box model:**
 - Margin pushes away the box.
 - Border pushes away padding from the margin.
+- Padding pushes away the border from content.
 
 > Note: In box model everything gets added including borders, so we tell browser to include border as well in the box-size by giving the following property to the whole document.
 
