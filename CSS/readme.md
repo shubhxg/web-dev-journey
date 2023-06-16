@@ -89,7 +89,7 @@ Box model contains following things:
 - Padding: Outside the content, between content and border.
 - Content: This is the content.
 
-**Some points to remember about Boxm model:**
+**Some points to remember about Box model:**
 - Padding pushes away the border from content.
 - Margin pushes away the box.
 - Border pushes away padding from the margin.
