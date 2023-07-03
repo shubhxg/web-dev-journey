@@ -75,6 +75,16 @@
 
 ## Let's start with some basic git commands ![icons8-git-48](https://github.com/shubhsharma19/web-development-notes/assets/69891912/a5acf77b-efcc-41c0-a947-bf4bc8e67c78)
 
+- To configure user's name and email
+```
+git config --global user.name "name of the user"
+git config --global user.email "email of the user"
+```
+- To check the current working user's name and email
+```
+git config --global user.name
+git config --global user.email
+```
 - Intializing git repo: 
 ```
 git init
