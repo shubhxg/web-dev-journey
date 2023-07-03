@@ -132,4 +132,40 @@ for exp: `float: left;` or `float: right;`
 
 which is clockwise direction can be shortened to: `margin: top-bottom, left-right;`
 
-To center stuff: `margin: 0 auto` or `margin: auto auto;`
+## Center elements in CSS
+
+In order to center an element, it must have some width. then we can center it using these 2 properties:
+
+```
+display: block;
+margin: 0 auto;
+```
+
+## Inheritance
+
+By using inherritance properties of parent elements are passed down to its child elements.
+
+> Note: Not all CSS properties are inherited by default. Some properties, such as width and height, are not inherited because they are typically considered to be specific to the individual element. On the other hand, properties like font-family and color are inherited, meaning that if they are set on a parent element, the child elements will also adopt those values unless overridden.
+
+To explicitly control inheritance for a particular property, set the property's value to `inherit`.
+
+Benefits of Inheritance 
+- Dry Code
+- Fewer bugs
+- More efficient development
+
+## Flexbox
+
+Flexbox is a CSS layout model that helps you arrange elements in a flexible and responsive way within a container. It simplifies the process of creating complex and dynamic layouts, especially for building responsive web pages.
+
+Here are some key concepts of flexbox:
+- **Making a Flex Container:** `display:flex`;
+- **Flex Direction:** The flex-direction property determines the direction in which the flex items are laid out within the container. 
+- By default `flex-direction` is set to `row` but we can change it to `row-reverse`, `column` and `column-reverse`.
+- There are 2 axis in the flexbox: **Main axis and Cross axis**.
+- Main axis is controlled by `justify-content` property and Cross Axis is controlled by `align-items`
+- > Note: When flex-direction is changed to `column` or `column-reverse`, main axis and cross axis will swap their locations.
+- **justify-content:** Controls the main-axis, values: `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`
+- **align-items:** Controls the cross-axis, values: `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`
+- **Flex Wrap:** By default, flex items will try to fit in a single line within the flex container. However, if they exceed the container's width, they may shrink or overflow. The flex-wrap property controls whether the items should wrap onto multiple lines or not. Values: `nowrap`, `wrap`, `wrap-reverse`
+- **Flex Grow, Flex Shrink, and Flex Basis:** These properties allow you to control how flex items grow, shrink, and initially allocate space. They are typically used in combination with each other to create flexible layouts.
