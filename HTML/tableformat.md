@@ -40,3 +40,6 @@
 | `<form>` | Used to create a form section that contains form elements, such as input fields, checkboxes, radio buttons, buttons, and more. It allows users to input data and submit it to a server for processing or perform other actions based on the form's purpose |
 | `<main>` | Used to define the main content area of a web page. It represents the primary content of the document, excluding any headers, footers, sidebars, or navigation elements |
 | `<figure>` | Used to mark up self-contained content that is referenced from the main content, such as images, illustrations, diagrams, videos, code snippets, and more. It allows you to group together the media or content along with an optional caption using the `<figcaption>` tag |
+|`<article>`| It is used to represent a standalone piece of content that could potentially be distributed or reused independently, such as a blog post, news article, forum post, or a comment |
+|`<blockquote>`| It is commonly used to display quotations from external sources or to highlight sections of text that are being referenced from other places |
+|`<q>`| Used to mark inline quotations or short pieces of quoted text within a paragraph |
