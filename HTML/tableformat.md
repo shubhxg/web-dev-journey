@@ -2,8 +2,8 @@
 
 | Tags            | Description     
 | --------------- | --------------- |
-| `<Html>` | Every html document starts with this tag |
-| `<Body>` | Content that is visible on the page goes inside body tag |
+| `<html>` | Every html document starts with this tag |
+| `<body>` | Content that is visible on the page goes inside body tag |
 | `<h1>`, `h2`, `h3`, `h4`, `h5`, `h6` | Highest to lowest headings |
 | `<p>` | Used for paragraphs |
 | `<pre>` | Used for Preformatted paragraphs |
