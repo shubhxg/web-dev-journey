@@ -2,11 +2,17 @@
 
 # JavaScript Notes (JS)
 
-**JavaScript** is a **high-level object oriented multi-paradigm programming language**. It is the Programming language of Internet. 
+- JavaScript is a multiparadigm programming language which is interpreted.
+- It was created in 1993 by  Brendan Eich at Netscape.
+- In JS you can use semicolons to end a line of code, however it totally depends on you. It still works fine without a semicolon.
+- It's Standard implementations was called **EcmaScript**.
+- At first it was called **Mocha** but later was renamed to JavaScript because they wanted the popularity of Java.
+- JS is dynamically typed which means it doesnt require data type declarations.
+- JavaScript is the native language of the web aside [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly).
+- JavaScript is used everywhere, websites, mobile apps using react native, desktop apps using electron, server side using nodejs and so on.
+- **JavaScript can also be called compiled language because of V8 Engine.**
+- **V8** is a JavaScript engine developed by Google. It is also used in other web browsers. It uses various optimization techniques such as **Just-In-Time (JIT)** compilation to convert JavaScript code into machine code, which can be executed by the computer's processor much faster than interpreting the code directly. V8 is still being improved everyday.
 
-JS is used with the the combination of HTML and CSS. It is interpreted language which means it doesn't require a compiler to convert it into a machine code. Instead it gets interpreted inside the browser.
-
-> Note: It's important to note that modern JavaScript engines have just-in-time (JIT) compilers that can optimize and compile parts of the code for improved performance during runtime. However, the initial interpretation and execution of JavaScript code happen within the browser environment without the need for a separate compilation step.
 
 ## Role of JS
 - It gives dynamic ability to the webpages and websites
@@ -28,16 +34,20 @@ Inside the body of the html doc, put this code in the bottom:
 
 `<script src="/relative or /absolute path"></script>`
 
-## Values and Variables in JS
-JS can work on different values such as numbers, strings, boolean, etc.
+## What is a Variable and How to Declare variables in JS?
 
-Example: `let name = "shubh";` here `shubh` is a value assigned to the variable `name` 
-
-A Variable is like a container or a box that hold these values. A variable can hold a single type of value such as number, string, etc.
-
-To assign a variable in JS: `let var="javascript";` here `let` is the keyword used to assign value `javascript` to the variable `var`
-
-In JS you can also do this `variableName = 23` which means you can directly assign variable without using `let` keyword however its not a good way to do that.
+- Variable is a place in memory of the computer where you can store different data values such as numbers, strings, characters, booleans etc.
+- In JavaScript a variable can be of 2 types: mutable and non-mutable.
+- A mutable variable is a variable that can be mutated after being initialized while immutable variables are also called constants.
+- A constant cannot be changed once initialized. For example:
+    - `const homies = ["Aman”, “Sumit”];`
+- We can also use var and let to declare a variable.
+- `const` is more preffered over `let` unless you specifically need to change a variable’s value in future.  let and var can be used inside loops and functions where we need to change the value of the variable after its initialization.
+- const requires a value at initializing. for exp: `const age = 10;`
+- `let` allows reassigning while `const`is a constant.
+- With `let` you can initialise the variable without giving it any value,
+    - for exp: `let age;`
+    - **Note:** when you initialize a variable with let without giving it any value it will be undefined.
 
 ## Naming conventions in JS
 In JS the most used naming convention is `camelCase`. for example: `let heightOfShubh = 5.8`. You can google more about camelCase
@@ -52,13 +62,13 @@ You can also use snake_case but this is not mostly used in JS, instead camel_cas
 - CONSTANTS use all uppercases
 - Use Descriptive names for variable names
 
-## Different Datatypes in JS
-- Number - Numbers such as integers and float values (example: 69.420)
-- String - Piece of text or group of characters (example: "helloworld!")
-- Boolean - True or False
-- Undefined - A variable that is not defined at the time of declaration has an undefined datatype and value as well 
-- Null - Empty value
-- BigInt - Large integers
+## DataTypes
+- JS can work with String, Numbers, Boolean, null, undefined, symbols. These are called **Primitive Data Types**.
+- JS also consists of complex datatypes such as arrays, objects, queues etc. but those are not primitive data types.
+- Numbers can be of types floats and integers both signed and unsigned.
+- To check datatype of any data, you can use `typeof` operator.
+    - `for ex: const age = 10; console.log(typeof age);`
+- If you output the `typeof` of null it will show **object** which is totally wrong and should be ignored. Null is a null type of datatype and not object.
 
 ## Dynamic Typing in JS
 In JS you do not need to define the type of a variable instead JS automatically determines the value of the variable.
