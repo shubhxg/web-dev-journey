@@ -119,3 +119,75 @@ console.log(var); This will output the value Saul Goodman
 ## Operator Precedence
 The Whole table is available here: [Precedence Table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence#table) 
 Thanks to mdn web docs.
+
+## If/else Conditions
+ ```
+if (condition is true) { 
+    do this
+}
+
+if (condition is true) { 
+	do this 
+} else { 
+	do this 
+}
+
+if (this condition is true) { 
+	do this 
+} else if (this condition is true) { 
+	then do this 
+} else { 
+	do this 
+} 
+
+```
+
+## Switch cases
+
+Switch cases are preffered when the conditions for a particular situation or event are more than 2.
+
+Switch cases are very useful when you have various choices to choose among those options.
+
+For example:
+
+```
+switch (case) {
+    case 1:
+        do this;
+	case 2:
+		do this;
+	case 3:
+		do this;
+	case 4:
+		do this;
+	default: 
+		do this; 
+}
+```
+
+## Looping Constructs
+
+- For loop
+- While loop
+- Nested for and while loop
+
+```
+for (initialization; condition; iteration) {
+	//do this
+}
+
+//initialization happens at the top in while loops;
+
+var i=1;
+while (condition) {
+	// do this
+	increment	
+}
+
+for (i, c, i++) { //----------------------> outer loop
+	// do this before second loop
+	for (i, c, i++) { //---------------------> inner loop
+		//do this
+	}
+}
+```
