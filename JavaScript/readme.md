@@ -78,7 +78,7 @@ Comments can be defined with double forward slash `//` such as `//this is a comm
 
 You can also do this 
 
-```
+```jsx
 /* This is a multiline comment
 Better Call Saul
 */
@@ -90,7 +90,7 @@ Better Call Saul
 In JS, you can change the value of a variable after declaring and assigning it as well. This term is called **Mutability**
 
 for example: 
-```
+```jsx
 let var = 14;
 console.log(var); This will output 14
 
@@ -121,23 +121,23 @@ The Whole table is available here: [Precedence Table](https://developer.mozilla.
 Thanks to mdn web docs.
 
 ## If/else Conditions
- ```
+ ```jsx
 if (condition is true) { 
-    do this
+    //do this
 }
 
 if (condition is true) { 
-	do this 
+	//do this 
 } else { 
-	do this 
+	//do this 
 }
 
 if (this condition is true) { 
-	do this 
+	//do this 
 } else if (this condition is true) { 
-	then do this 
+	//then do this 
 } else { 
-	do this 
+	//do this 
 } 
 
 ```
@@ -150,18 +150,18 @@ Switch cases are very useful when you have various choices to choose among those
 
 For example:
 
-```
+```jsx
 switch (case) {
     case 1:
         do this;
 	case 2:
-		do this;
+		//do this;
 	case 3:
-		do this;
+		//do this;
 	case 4:
-		do this;
+		//do this;
 	default: 
-		do this; 
+		//do this; 
 }
 ```
 
@@ -171,7 +171,7 @@ switch (case) {
 - While loop
 - Nested for and while loop
 
-```
+```jsx
 for (initialization; condition; iteration) {
 	//do this
 }
@@ -191,3 +191,131 @@ for (i, c, i++) { //----------------------> outer loop
 	}
 }
 ```
+
+## Strings
+- Strings are group of characters, basically sentences.
+- To declare a string: `const string = “This is a string”`
+- Old way of concatenation of strings and variables
+- console.log(`“string” + variable + “string” + variable + “string”;`);
+    (which is not efficient way instead we can use a new way called **Template strings)**
+- `console.log(`string ${variableName} string string string ${variableName2} string`);`
+
+## Properties and methods difference
+
+Properties are of key, value pairs of objects, while a method is a property of an object that can be executed. A function that is a property of a object is called method.
+
+- For example: `console.log(s.length)` is a property while `console.log(s.split(’’));` is a method with arguments.
+- More example: `s.toUpperCase(), s.toLowerCase()`, etc.
+
+---
+
+Quick Hack with split method
+
+we can split all the words from a string and save them into an array using this hack.
+
+- for example: `const s=”Hello World”;`
+    
+    `console.log(s.split(’, ’));`will print the whole array with Hello at 0 position, World at 1st position and so on.
+    
+
+## Chaining up the methods to make a chain of methods
+
+- We can chain up different methods together to make a chain of methods.
+    - For example: `console.log(s.substring(0,5).toUpperCase().split(''));`
+- This above example shows how different methods can be used together to form a chain of methods.
+
+## Arrays [ ]
+
+- Arrays can hold many values at the same time. In other programming languages, Arrays could only store similar type of data but in JS arrays can even hold different types of values.
+- Arrays start with index 0.
+- Declaring an array in JS
+    - `const array = [elements, elements, elements];`
+- Assigning values to the end of the arrays: `array[last index] = value;`
+- Note: We can manipulate values of an array declared with a const but we can’t reassign it.
+    - **For example:**
+
+
+    ```jsx
+    const array = [1,3,4];
+    
+    // possible
+    array[1]=2;
+    array[2]=3;
+    
+    // not possible because its reassigning the entire array.
+    array = [4,5,6];
+    ```
+    
+- One more way to initialize an array is to use constructors
+    - `const array = new Array(1,2,3);` This is because an array is an object in JS which means we can create its instance and use a constructor for that.
+
+**Manipulating values of the array**
+
+- We can use push method to push values at the last index of the array.
+    - `array.push(element);`
+- To delete last value from the array we can use pop method.
+    - `array.pop(element);`
+- To add the element in the beginning of the array
+    - `array.unshift(element);`
+- To check the values inside the array
+    - `Array.isArray(arrayName);`
+- To get the index of a specific element
+    - `.indexof(element);`
+
+---
+
+## Object Literals ={ : }
+
+- Objects are collection of key value pairs.
+- Objects have different properties which are described in form of key value pairs.
+- Syntax of an object is:
+
+```jsx
+const object = {
+	key: value,
+	key: true;
+	key: [value,value,value],
+	key: "value"
+}
+```
+
+- We can even add objects inside objects.
+
+```jsx
+const object = {
+	key: value,
+	key: value,
+	object_Inside_Object: {
+		key: value,
+		key: value
+	}
+}
+```
+
+- Accessing values from objects
+    - `object.property;`
+    - `object.property[index];`
+- Adding new property to the object.
+    - `object.property = value;`
+
+## Array of objects [ ={ : } ]
+
+- We can create arrays of objects.
+
+```jsx
+const array = [
+	{
+		key:value, 
+		key:value
+	},
+	{
+		key:value,
+		key:value
+	}
+]
+```
+
+- To access these objects from the array
+    - `array[indexNumber].property;`
+- Array of objects are similar to JSON file data which is used to share data with the server in form of json files. The only difference is double quotes on the keys.
+- To convert this data into JSON data: `const newObject = JSON.stringify(arrayofObjects);`
