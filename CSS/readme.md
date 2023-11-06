@@ -143,7 +143,7 @@ margin: 0 auto;
 
 ## Inheritance
 
-By using inherritance properties of parent elements are passed down to its child elements.
+By using inheritance properties of parent elements are passed down to its child elements.
 
 > Note: Not all CSS properties are inherited by default. Some properties, such as width and height, are not inherited because they are typically considered to be specific to the individual element. On the other hand, properties like font-family and color are inherited, meaning that if they are set on a parent element, the child elements will also adopt those values unless overridden.
 
