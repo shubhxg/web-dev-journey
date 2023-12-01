@@ -273,7 +273,7 @@ we can split all the words from a string and save them into an array using this 
 ```jsx
 const object = {
 	key: value,
-	key: true;
+	key: true,
 	key: [value,value,value],
 	key: "value"
 }
