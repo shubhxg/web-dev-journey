@@ -2,6 +2,8 @@
 
 # JavaScript Notes (JS)
 
+**Tip: use `Ctrl + click` to open links in a new tab.**
+
 | Topic | Link |
 |:--|:------------------|
 |Intro to JavaScript|[open](./intro/intro_history.md)|
