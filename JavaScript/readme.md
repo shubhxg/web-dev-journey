@@ -421,3 +421,10 @@ There are more methods such as:
 - When you work with a primitive datatypes, any operation that appears to **"modify"** the value is actually creating a new value.
 - This is because primitives are **passed by value**, meaning a copy of the actual value is passed around, and changes to the copy don't affect the original value.
 - However, when you work with non-primitives such as objects, you are working with references to the actual data rather than the data itself which means **passed by reference**. So the changes you make through one reference will affect the underlying data, impacting other references to the same data.
+
+## Functions
+
+| Subtopic | Link |
+|:--:|:------------------:|
+|Vanilla Functions|[open](./functions/functions.md)|
+|Callbacks|[open](./functions/callbacks.md)|
