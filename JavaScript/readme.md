@@ -25,5 +25,5 @@
 |17|Shallow vs. Deep Copy|[open](./shallow_vs_deep/shallow_vs_deep_copy.md)|
 |18|Stack vs. Heap memory|[open](./memory/stacksvsheapmemory.md)|
 |19|Date and Time|[open](./date_time/date_time.md)|
-|20|Functions|[open](./functions/functions.md)|
+|20|Functions|[open](./functions/vanilla_functions.md)|
 |21|Callbacks|[open](./functions/callbacks.md)|
