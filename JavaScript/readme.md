@@ -1,6 +1,5 @@
-![Picture4-1-1024x242_3](https://github.com/shubhsharma19/web-development-notes/assets/69891912/b47840c9-0d9b-4838-a161-abbeb598cd61)
+#  JavaScript Notes (JS) 
 
-# JavaScript Notes (JS)
 
 **Tip: use `Ctrl + click` to open links in a new tab.**
 
