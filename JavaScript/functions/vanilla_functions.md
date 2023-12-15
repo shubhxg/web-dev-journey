@@ -60,3 +60,13 @@ sumOfNUmbers(4, 5, 8, 12, 4, 6, 9);
 function sumOfNumbers(...values) {}
 ```
 `...` rest operator turns those values into an array and accepts them inside the function.
+
+## Copying function to another variable
+
+```jsx
+function func1 () {console.log("Helloworld!");}
+
+const func2 = func1;
+
+func2(); // will print helloworld
+```
