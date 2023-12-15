@@ -3,7 +3,7 @@
 
 **Tip: use `Ctrl + click` to open links in a new tab.**
 
-| Serial | Topic | Link |
+| Serial | Topics | Link |
 |:--:|:-----------|:--|
 |01|Intro and History of JavaScript Programming Language|[open](./intro/intro_history.md)|
 |02|V8 Engine|[open](./v8_engine/v8.md)|
@@ -24,4 +24,6 @@
 |17|Shallow vs. Deep Copy|[open](./shallow_vs_deep/shallow_vs_deep_copy.md)|
 |18|Date and Time|[open](./date_time/date_time.md)|
 |19|Vanilla Functions|[open](./functions/vanilla_functions.md)|
-|20|Callbacks|[open](./functions/callbacks.md)|
+|20|Local vs. Global Scope|[open](./scopes/local_and_global_scope.md)|
+|21|Closure|[open](./scopes/closure.md)|
+|22|Function Expression|[open](./functions/function_expression.md)|
