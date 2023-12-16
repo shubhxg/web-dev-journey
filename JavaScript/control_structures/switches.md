@@ -1,13 +1,13 @@
 ## Switches
 
-Switch cases are preffered when the conditions for a particular situation or event are more than 2.
+Switch cases are  preferred when the conditions for a particular situation or event are more than 2.
 
 For example:
 
 ```jsx
 switch (case) {
     case 1:
-        do this;
+        //do this;
 	case 2:
 		//do this;
 	case 3:

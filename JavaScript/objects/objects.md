@@ -3,7 +3,7 @@
 - Objects are collection of key value pairs.
 - Objects have different properties which are described in form of key value pairs.
 - Key and value both are stored as a string in memory but you do not have to write keys as `"key"` instead just `key:`
-- If you want to use a symbol as a key in an object you will need to use square brackets [], `[symbolKey]: "value"` otherwise it will take symbol as a string.
+- If you want to use a symbol as a key in an object you will need to use square brackets [ ], `[symbolKey]: "value"` otherwise it will take symbol as a string.
 - Syntax of an object is:
 
 ```jsx

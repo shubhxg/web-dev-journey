@@ -1,13 +1,13 @@
 ## Variables 
 
 - Variable is a place in memory of the computer where you can store different data values such as numbers, strings, characters, booleans etc.
-- To declare variables in memory we use builtin keywords such as let, var, const,etc. These keywords have speacial meaning for JS.
+- To declare variables in memory we use builtin keywords such as let, var, const,etc. These keywords have special meaning for JS.
 - In JavaScript a variable can be of 2 types: **variable and constants**.
 - A mutable variable is a variable that can be mutated after being initialized while immutable variables are also called **constants**.
 - A constant cannot be changed once initialized. For example:
     - `const homies = ["Aman”, “Sumit”];`
 - We can also use **var and let** to declare a variable.
-- Use `const` if you dont want bugs in your code. Only use `let` when needed and preffer not to use `var`.
+- Use `const` if you don't want bugs in your code. Only use `let` when needed and prefer not to use `var`.
 - const requires a value at initializing. for exp: `const age = 10;`
 - `let` allows reassigning while `const`is a constant.
 - With `let` you can initialise the variable without giving it any value, for exp: `let age;`
