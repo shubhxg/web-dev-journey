@@ -5,25 +5,25 @@
 
 | Serial | Topics | Link |
 |:--:|:-----------|:--|
-|01|Intro and History of JavaScript Programming Language|[open](./intro/intro_history.md)|
-|02|V8 Engine|[open](./v8_engine/v8.md)|
-|03|JavaScript with browsers|[open](./javascript_with_browser/js_with_browser.md)|
-|04|Variables|[open](./variables/variables.md)|
-|05|Naming conventions|[open](./naming_conventions/naming_conventions.md)|
-|06|Datatypes|[open](./datatypes/datatypes.md)|
-|07|Comments|[open](./comments/comments.md)|
-|08|Operators|[open](./operators/operators.md)|
-|09|If and else conditions|[open](./control_structures/if_else.md)|
-|10|Switches|[open](./control_structures/switches.md)|
-|11|Loops|[open](./control_structures/loops.md)|
-|12|Strings|[open](./strings/strings.md)|
-|13|Arrays [ ]|[open](./arrays/arrays.md)|
-|14|Objects { : }|[open](./objects/objects.md)|
-|15|Methods and Properties|[open](./functions/methods.md)|
-|16|Stack vs. Heap memory|[open](./memory/stacksvsheapmemory.md)|
-|17|Shallow vs. Deep Copy|[open](./shallow_vs_deep/shallow_vs_deep_copy.md)|
-|18|Date and Time|[open](./date_time/date_time.md)|
-|19|Vanilla Functions|[open](./functions/vanilla_functions.md)|
-|20|Local vs. Global Scope|[open](./scopes/local_and_global_scope.md)|
-|21|Closure|[open](./scopes/closure.md)|
-|22|Function Expression|[open](./functions/function_expression.md)|
+|01|Intro and History of JavaScript Programming Language|[open](./01_intro/intro_history.md)|
+|02|V8 Engine|[open](./02_v8_engine/v8.md)|
+|03|JavaScript with browsers|[open](./03_javascript_with_browser/js_with_browser.md)|
+|04|Variables|[open](./04_variables/variables.md)|
+|05|Naming conventions|[open](./05_naming_conventions/naming_conventions.md)|
+|06|Datatypes|[open](./06_datatypes/datatypes.md)|
+|07|Comments|[open](./07_comments/comments.md)|
+|08|Operators|[open](./08_operators/operators.md)|
+|09|If and else conditions|[open](./09_control_structures/if_else.md)|
+|10|Switches|[open](./09_control_structures/switches.md)|
+|11|Loops|[open](./09_control_structures/loops.md)|
+|12|Strings|[open](./10_strings/strings.md)|
+|13|Arrays [ ]|[open](./11_arrays/arrays.md)|
+|14|Objects { : }|[open](./12_objects/objects.md)|
+|15|Methods and Properties|[open](./13_functions/methods.md)|
+|16|Stack vs. Heap memory|[open](./14_memory/stacksvsheapmemory.md)|
+|17|Shallow vs. Deep Copy|[open](./15_shallow_vs_deep/shallow_vs_deep_copy.md)|
+|18|Date and Time|[open](./16_date_time/date_time.md)|
+|19|Vanilla Functions|[open](./13_functions/vanilla_functions.md)|
+|20|Local vs. Global Scope|[open](./17_scopes/local_and_global_scope.md)|
+|21|Closure|[open](./17_scopes/closure.md)|
+|22|Function Expression|[open](./13_functions/function_expression.md)|
