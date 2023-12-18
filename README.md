@@ -6,10 +6,10 @@
 **Note: Use `ctrl + click` to open link in new tab.**
 
 ### Level 1
-<img align="right" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" height="50" alt="git"> 
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/5968/5968358.png" height="50" alt="sass"> 
-<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/768px-CSS3_logo.svg.png" height="50" alt="css3">
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png" height="50" alt="html5"> 
+<img align="right" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" height="36" alt="git"> 
+<img align="right" src="https://cdn-icons-png.flaticon.com/512/5968/5968358.png" height="36" alt="sass"> 
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/768px-CSS3_logo.svg.png" height="36" alt="css3">
+<img align="right" src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png" height="36" alt="html5"> 
 
 - [HTML](https://github.com/shubhsharma19/web-development-notes/tree/main/HTML)
 - [CSS](https://github.com/shubhsharma19/web-development-notes/tree/main/CSS)
@@ -17,10 +17,10 @@
 - [Git](https://github.com/shubhsharma19/web-development-notes/tree/main/Git)
 
 ### Level 2
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/1493/1493169.png" height="50" alt="api"> 
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/10074/10074702.png" height="50" alt="yaml"> 
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/136/136525.png" height="50" alt="json">
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" height="50" alt="javascript">
+<img align="right" src="https://cdn-icons-png.flaticon.com/512/1493/1493169.png" height="36" alt="api"> 
+<img align="right" src="https://cdn-icons-png.flaticon.com/512/10074/10074702.png" height="36" alt="yaml"> 
+<img align="right" src="https://cdn-icons-png.flaticon.com/512/136/136525.png" height="36" alt="json">
+<img align="right" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" height="36" alt="javascript">
 
 - [JavaScript](https://github.com/shubhsharma19/web-development-notes/tree/main/JavaScript)
 - [JSON](https://github.com/shubhsharma19/web-development-notes/tree/main/JSON)
