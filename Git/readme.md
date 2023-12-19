@@ -7,7 +7,7 @@
 - VCS is very powerful tool as it helps you keep track of your work, creates a backup of the files and helps in collaboration.
 
 ## History of Git and GitHub
-- **Linus Torwalds** created Git.
+- **Linus Torvalds** created Git.
 - Prior to Git, the Linux kernel development team used a proprietary version control system called **BitKeeper**. However, a dispute arose between the BitKeeper creators and the Linux community, leading to the need for a new solution and creation of Git.
 - The first public release of Git was in **April 2005**. It was made available for download and quickly gained attention within the open-source community due to its performance and flexibility.
 
