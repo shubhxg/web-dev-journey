@@ -17,7 +17,7 @@ This allows for greater control over the flow of execution and enables asynchron
 ```jsx
 const arr = [1,3,4,5,8,9];
 
-arr.forEach((item)=> {
+arr.forEach((item) => {
     console.log(item);
 })
 
