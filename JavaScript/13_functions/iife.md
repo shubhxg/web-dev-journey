@@ -1,4 +1,4 @@
-## Immediatel invoked function expression (IIFE)
+## Immediately invoked function expression (IIFE)
 
 IIFE is a way to create a function using `()()` brackets. IIFE are very useful.
 
