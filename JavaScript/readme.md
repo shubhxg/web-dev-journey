@@ -31,7 +31,7 @@
 |24|Arrow Functions|[open](./13_functions/arrow.md)|
 |25|IIFE|[open](./13_functions/iife.md)|
 |26|Higher order functions|[open](./13_functions/higher_order_func.md)|
-|26|Callback functions|[open](./13_functions/callbacks.md)|
-|27|Truthy and falsy values|[open](./06_datatypes/truthy_falsy.md)|
-|28|Nullish Coalescing Operator|[open](./08_operators/nullish_coalescing.md)|
-|29|Higher order loops|[open](./09_control_structures/higher_order_loops.md)|
+|27|Callback functions|[open](./13_functions/callbacks.md)|
+|28|Higher order loops|[open](./09_control_structures/higher_order_loops.md)|
+|29|Truthy and falsy values|[open](./06_datatypes/truthy_falsy.md)|
+|30|Nullish Coalescing Operator|[open](./08_operators/nullish_coalescing.md)|
