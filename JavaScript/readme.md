@@ -27,3 +27,11 @@
 |20|Local vs. Global Scope|[open](./17_scopes/local_and_global_scope.md)|
 |21|Closure|[open](./17_scopes/closure.md)|
 |22|Function Expression|[open](./13_functions/function_expression.md)|
+|23|Anonymous Function|[open](./13_functions/anonymous.md)|
+|24|Arrow Functions|[open](./13_functions/arrow.md)|
+|25|IIFE|[open](./13_functions/iife.md)|
+|26|Higher order functions|[open](./13_functions/higher_order_func.md)|
+|26|Callback functions|[open](./13_functions/callbacks.md)|
+|27|Truthy and falsy values|[open](./06_datatypes/truthy_falsy.md)|
+|28|Nullish Coalescing Operator|[open](./08_operators/nullish_coalescing.md)|
+|29|Higher order loops|[open](./09_control_structures/higher_order_loops.md)|
