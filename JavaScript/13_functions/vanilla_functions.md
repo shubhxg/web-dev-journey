@@ -70,3 +70,14 @@ const func2 = func1;
 
 func2(); // will print helloworld
 ```
+## Function signature
+
+- The function signature refers to the part of the function declaration or definition that includes the function's name, parameter types, and return type.
+- It provides a summary of the function's interface without including the actual implementation details.
+- The signature includes information about the function's input parameters (types and order) and its return type.
+
+For example: 
+```jsx
+add_numbers(x, y); // is a signature here
+
+```
