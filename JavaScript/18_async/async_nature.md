@@ -1,10 +1,12 @@
 ## Async nature of JS
 
-### What is async and sync
-Sync → Together or Sequential but one thing at a time.
-Async → Parallel, context switching between tasks.
+### Let's first see what is the difference between synchronous and asynchronous
+**Sync** → Together or Sequential but one thing at a time.
+**Async** → Parallel, context switching between tasks.
 
 ### Async programming 
+<img src="https://github.com/shubhsharma19/web-development-journey/assets/69891912/45054de6-afc8-4a5b-b076-ed53b1d61257" alt="async vs sync" width="600">
+
 - Asynchronous programming is basically managing tasks that might take some time to complete, such as I/O operations, without blocking the execution of the rest of the code. 
 
 - The runtime environment handles context switching between tasks to ensure efficient execution.
@@ -18,6 +20,8 @@ Async → Parallel, context switching between tasks.
     - `fetch(callback)`
 
 ### Async architecture of js
+
+<img src="https://github.com/shubhsharma19/web-development-journey/assets/69891912/70fb0616-e8e2-439b-a3d2-d5207224a833" alt="architecture of JS" width="600">
 
 - **callstack** → The call stack is a data structure that keeps track of function calls in your code. When a function is called, a new frame is pushed onto the stack. When a function completes, its frame is popped from the stack. This is how JavaScript manages the flow of execution.
 - **webapis →** Web APIs are functionalities provided by the browser or the environment in which JavaScript is running. Here most of the async operations are put until they complete.
