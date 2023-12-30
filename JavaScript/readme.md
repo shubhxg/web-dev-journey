@@ -35,3 +35,5 @@
 |28|Higher order loops|[open](./09_control_structures/higher_order_loops.md)|
 |29|Truthy and falsy values|[open](./06_datatypes/truthy_falsy.md)|
 |30|Nullish Coalescing Operator|[open](./08_operators/nullish_coalescing.md)|
+|31|Async nature of JS|[open](./18_async/async_nature.md)|
+|32|Promises|[open](./18_async/promises.md)|
