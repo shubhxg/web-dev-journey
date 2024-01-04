@@ -20,9 +20,11 @@
 <img align="right" src="https://cdn-icons-png.flaticon.com/512/1493/1493169.png" height="36" alt="api"> 
 <img align="right" src="https://cdn-icons-png.flaticon.com/512/10074/10074702.png" height="36" alt="yaml"> 
 <img align="right" src="https://cdn-icons-png.flaticon.com/512/136/136525.png" height="36" alt="json">
+<img align="right" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" height="36" alt="nodejs">
 <img align="right" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" height="36" alt="javascript">
 
 - [JavaScript](https://github.com/shubhsharma19/web-development-notes/tree/main/JavaScript)
+- [NodeJS](https://github.com/shubhsharma19/web-dev-journey/tree/main/NodeJS)
 - [JSON](https://github.com/shubhsharma19/web-development-notes/tree/main/JSON)
 - [YAML](https://github.com/shubhsharma19/web-development-notes/tree/main/YAML)
 - [APIs](https://github.com/shubhsharma19/web-development-notes/tree/main/APIs)
