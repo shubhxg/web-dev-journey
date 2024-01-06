@@ -6,7 +6,7 @@ It is the foundation of data communication on the web and is widely used for fet
 
 Some other examples of protocols **https, ftp, webrtc, imap, pop3, smtp, dns, tcp/ip, udp.**
 
-## How Frontend communicates with backend?
+## How frontend communicates with backend?
 
 Frontend and backend communication often relies on HTTP protocol. The frontend (client-side) sends HTTP requests to the backend (server-side), and the backend responds with the requested data or performs the requested actions. This interaction is crucial for dynamic web apps where data needs to be exchanged between the user's device and the server.
 
