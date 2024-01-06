@@ -4,7 +4,7 @@ Default package manager for the nodejs. It's a massive online repository of open
 
 Its like a market place full of modules, frameworks etc.
 
-```jsx
+```bash
 // initialising npm
 npm init -y
 
