@@ -48,6 +48,7 @@ Also bun is fully backward compatible which means any bun code is also nodejs co
 
 ## How to run code with nodejs
 
-```jsx
+```bash
+cd "directory where file is saved"
 node index.js
 ```
