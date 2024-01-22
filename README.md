@@ -6,28 +6,12 @@
 **Note: Use `ctrl + click` to open link in new tab.**
 
 ### Level 1
-<img align="right" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" height="36" alt="git"> 
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/5968/5968358.png" height="36" alt="sass"> 
-<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/768px-CSS3_logo.svg.png" height="36" alt="css3">
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png" height="36" alt="html5"> 
-
-- [HTML](https://github.com/shubhsharma19/web-development-notes/tree/main/HTML)
-- [CSS](https://github.com/shubhsharma19/web-development-notes/tree/main/CSS)
-- [Sass](https://github.com/shubhsharma19/web-development-notes/tree/main/Sass)
-- [Git](https://github.com/shubhsharma19/web-development-notes/tree/main/Git)
-
-### Level 2
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/1493/1493169.png" height="36" alt="api"> 
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/10074/10074702.png" height="36" alt="yaml"> 
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/136/136525.png" height="36" alt="json">
-<img align="right" src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png" height="42" alt="express.js">
-<img align="right" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" height="36" alt="nodejs">
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" height="36" alt="javascript">
-
-- [JavaScript](https://github.com/shubhsharma19/web-development-notes/tree/main/JavaScript)
-- [NodeJS](https://github.com/shubhsharma19/web-dev-journey/tree/main/NodeJS)
-- [Express](https://github.com/shubhsharma19/web-dev-journey/blob/main/Express)
-- [JSON](https://github.com/shubhsharma19/web-development-notes/tree/main/JSON)
-- [YAML](https://github.com/shubhsharma19/web-development-notes/tree/main/YAML)
-- [APIs](https://github.com/shubhsharma19/web-development-notes/tree/main/APIs)
- 
+| Serial | Topics | Link | |
+|:--:|:-----------|:--|:--:|
+| 01 | HTML | [open](https://github.com/shubhsharma19/web-development-notes/tree/main/HTML) | <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" width = "40">
+| 02 | CSS | [open](https://github.com/shubhsharma19/web-development-notes/tree/main/CSS) | <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" width = "40">
+| 03 | Sass | [open](https://github.com/shubhsharma19/web-development-notes/tree/main/Sass) |  <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png" width = "40">
+| 04 | Git | [open](https://github.com/shubhsharma19/web-development-notes/tree/main/Git) |<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" width ="40">|
+| 05 | JavaScript | [open](https://github.com/shubhsharma19/web-development-notes/tree/main/JavaScript) | <img width = "40" src = "https://github.com/shubhsharma19/web-dev-journey/assets/69891912/d7dde645-d379-4b71-bd4a-a4cca98056a4"> |
+| 06 | NodeJS | [open](https://github.com/shubhsharma19/web-dev-journey/tree/main/NodeJS) | <img width = "40" src = "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png">
+| 07 | Express | [open](https://github.com/shubhsharma19/web-dev-journey/blob/main/Express) | <img width = "40" src = "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png">
