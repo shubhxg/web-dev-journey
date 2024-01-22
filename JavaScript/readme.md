@@ -37,3 +37,4 @@
 |30|Nullish Coalescing Operator|[open](./08_operators/nullish_coalescing.md)|
 |31|Async nature of JS|[open](./18_async/async_nature.md)|
 |32|Promises|[open](./18_async/promises.md)|
+|33|Async/Await | [open](./18_async/async_await.md)|
