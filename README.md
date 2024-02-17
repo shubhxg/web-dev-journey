@@ -14,21 +14,21 @@
 - [HTML (Hyper Text Markup Language)](https://github.com/shubhsharma19/web-dev-journey/tree/main/HTML)
 
 
-- [CSS (Cascading Styles Sheet)](https://github.com/shubhsharma19/web-dev-journey/tree/main/CSS)
+- [CSS (Cascading Styles Sheet)](https://github.com/shubhsharma19/web-dev-journey/tree/main/CSS/readme.md)
 
 
-- [Sass (Syntactically Awesome Style Sheets)](https://github.com/shubhsharma19/web-dev-journey/tree/main/Sass)
+- [Sass (Syntactically Awesome Style Sheets)](https://github.com/shubhsharma19/web-dev-journey/tree/main/Sass/readme.md)
 
 
-- [JavaScript Language](https://github.com/shubhsharma19/web-dev-journey/tree/main/JavaScript)
+- [JavaScript Language](https://github.com/shubhsharma19/web-dev-journey/tree/main/JavaScript/readme.md)
 
 ## Backend Stuff
 
 ### Nodejs, npm and nodemon related
 
-- [Nodejs, Bun and Runtime env](https://github.com/shubhsharma19/web-dev-journey/tree/main/NodeJS)
+- [Nodejs, Bun and Runtime env](https://github.com/shubhsharma19/web-dev-journey/tree/main/NodeJS/readme.md)
 
-- [Importing and Exporing modules in NodeJS](https://github.com/shubhsharma19/web-dev-journey/tree/main/NodeJS/modules/readme.md)
+- [Importing and Exporting modules in NodeJS](https://github.com/shubhsharma19/web-dev-journey/tree/main/NodeJS/modules/readme.md)
 
 - [Useful built-in modules](https://github.com/shubhsharma19/web-dev-journey/tree/main/NodeJS/modules/usefulmodules.md)
 
@@ -40,7 +40,7 @@
 
 ### Servers, Express, Middlewares related
 
-- [What is Express?](https://github.com/shubhsharma19/web-dev-journey/tree/main/Express)
+- [What is Express?](https://github.com/shubhsharma19/web-dev-journey/tree/main/Express/readme.md)
 
 - [Prerequisites for backend](https://github.com/shubhsharma19/web-dev-journey/blob/main/Express/01_basic_prerequisites.md)
 
