@@ -19,6 +19,12 @@
 3. Error handling: `Global catch`
 4. Logging: `morgan`
 
+## Types of middlewares on basis of usage
+
+1. Built in 
+2. Custom 
+3. Third party
+
 ## Using middlewares globally
 
 We can use `.use()` method to use middlewares globally.
