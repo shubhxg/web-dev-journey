@@ -1,9 +1,6 @@
-![webdevelopment notes](https://github.com/shubhsharma19/web-development-notes/assets/69891912/11b01e78-fd52-43da-99df-ec6d81f89c91)
-
-
 <h1 align="left"> Full-stack Web Dev Journey 🌐 </h1>
 
-**Use `ctrl + click` to open link in new tab. 🖱**
+> **Use `ctrl + click` to open link in new tab. 🖱**
 
 ## Foundations
 
