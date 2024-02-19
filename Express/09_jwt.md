@@ -57,13 +57,13 @@ app.post('/signin', (req, res) => {
   const { username, password } = req.body;
 
 // if user does not exist
-  if(!userexists(username, password)) {
+  if(!userExists(username, password)) {
     return res.status(403).json({
       message: "User does not exist"
     });
   }
 	// user exists, creating a token
-  const token = jwt.sign({ username }, jwtPass);
+  const token = jwt.sign({ username }, jwtPass, { expiresIn: '24h' });
 
 	// returning token to the user
   return res.status(200).json({
@@ -72,14 +72,27 @@ app.post('/signin', (req, res) => {
   });
 })
 
-// decoding the token 
-// getting the token from the user
+// Middleware for token verification
+const tokenCheckerMiddleware = (req, res, next) => {
   const token = req.headers.authorization;
+  if (!token) {
+    return res.status(403).json({ message: "A token is required for authentication" });
+  }
   try {
-    // verification of user
+    // Verification of user
     const decoded = jwt.verify(token, jwtPass);
-    const username = decoded.username;
-	}
+    req.user = decoded; // Attaching the decoded user to the request
+    next(); // Proceed to the next middleware/function
+  } catch (err) {
+    return res.status(401).json({ message: "Invalid Token" });
+  }
+};
+
+// Example of using the middleware
+app.get('/someProtectedRoute', tokenCheckerMiddleware, (req, res) => {
+  // If the request reaches here, the user is authenticated
+  res.send('Access granted to protected content');
+});
 ```
 
 Explanation 
