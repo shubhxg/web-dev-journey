@@ -15,11 +15,28 @@ This allows for greater control over the flow of execution and enables asynchron
 ## Common example of callback functions
 
 ```jsx
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function printArrayCB (arr) {
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
+
+// this function takes a callback as an argument
+function printArray (cb) {
+  cb(arr);
+}
+
+printArray(printArrayCB);
+```
+
+```jsx
 const arr = [1,3,4,5,8,9];
 
 arr.forEach((item) => {
     console.log(item);
 })
 
-// here the forEach method takes a callback function.
+// here the forEach method takes a callback function which is also an anonymous function.
 ```
