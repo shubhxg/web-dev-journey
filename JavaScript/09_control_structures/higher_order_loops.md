@@ -51,3 +51,28 @@ const sum = numbers.reduce((accumulator, number) => accumulator + number, 0);
 console.log(sum); // 15
 
 ```
+
+## Example to understand forEach vs. Reduce
+Let's get the sum of all elements of an array
+
+Its best to use reduce method when we want to reduce those elements to something, while forEach is good when we want to do something to that each value.
+
+```jsx
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// using forEach()
+function sum1 (arr) {
+  let sum = 0;
+  arr.forEach((el) => {
+    sum = sum + el
+  })
+  return sum;
+}
+  
+// using reduce method
+const sum2 = arr.reduce((acc, el) => acc + el, 0)
+
+console.log(sum1(arr));
+console.log(sum2)
+
+```
