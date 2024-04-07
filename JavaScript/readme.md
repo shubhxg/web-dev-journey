@@ -38,3 +38,4 @@
 |31|Async nature of JS|[open](./18_async/async_nature.md)|
 |32|Promises|[open](./18_async/promises.md)|
 |33|Async/Await | [open](./18_async/async_await.md)|
+|34|DOM Manipulation| [open](./19_dom/readme.md)
