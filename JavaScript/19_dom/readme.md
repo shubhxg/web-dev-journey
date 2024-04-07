@@ -12,6 +12,9 @@
 
 Imagine the HTML document as an upside-down tree. The entire document `(window.document)` is the top parent node commonly known as `root node`, and each element within the HTML code (like `<div>`, `<p>`, etc.) becomes a separate node in the tree. 
 
+![DOM tree](https://github.com/shubhxg/web-dev-journey/assets/69891912/6e8c8911-5735-447e-9512-59fe1c6d3ea9)
+
+
 These element nodes can have child nodes, which represent elements nested within them. Text content within the elements is also represented by text nodes.
 
 ## What is Window?
