@@ -48,4 +48,37 @@
 
 > In situations where you want to data scrap `Array.from(”string”)` can be used to convert that data into array but if it takes an object then it might not work as expected.
 
----
+
+## Destructuring arrays
+
+Destructuring arrays is a way of taking out values out of an array without manipulating it.
+
+```js
+const arr = [1,2,3,4,5,6,7,8];
+
+let [a,b,c] = arr; // 1, 2, 3
+
+// skipping values with a comma
+const [a, , c] = arr; // 1, 3
+
+// swapping values
+[a,c] = [c,a];
+
+console.log(a, c) // 3, 1
+
+function filteredArr (arr) {
+  const newarr = arr.filter(val => val % 2 === 0)
+  return newarr
+}
+
+// catching values from the function call and then destructuring
+const [a, b, , c] = filteredArr (arr);
+console.log(a, b, c); // 2, 4, 8
+
+// destructuring nested values from arrays
+const nestedArr = [2, 3, [4, 5, 6], [7, 8, 9]]
+const [two,, [four,, six], [, eight]] = nestedArr; 
+// [2, skipped3, [four, skipped5, six], [skipped7, eight]]
+
+console.log(two, four, six, eight);
+```
