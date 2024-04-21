@@ -65,3 +65,34 @@ You can freeze objects in order to make them immutable.
 ```jsx
 Object.freeze(object1);
 ```
+
+## Destructuring objects
+
+A convenient way to extract values from objects and assign them to variables. 
+
+```jsx
+// Example object
+const person1 = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 30,
+  address: {
+    city: 'New York',
+    country: 'USA'
+  }
+};
+
+// ----------------  Destructuring assignment -------------------------
+const { firstName, lastName, age } = person1;
+
+// Accessing the values
+console.log(firstName); // Output: John
+console.log(lastName);  // Output: Doe
+console.log(age);        // Output: 30
+```
+
+- You can even shorten the property name for example:
+
+```jsx
+const {firstName : fname, lastName: lname} = person1;
+```
